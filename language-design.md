@@ -16,7 +16,7 @@ are:
 For each quote, describe what it was about the quote that led you pick it.
 
 **Response**
-
+Anthony
 1. Cathedral/Bazaar Quote
 2. Wizard Quote
 
@@ -34,7 +34,7 @@ How would you know a well-designed language? What are the symptoms? How would
 you know a poorly designed language? What are the symptoms?
 
 **Response**
-
+Ross
 + Self-Documenting: cite API design article
    + Cite "Why Aren't Computer Languages Designed Better" (see: section with example
      loop code)
@@ -48,11 +48,10 @@ you know a poorly designed language? What are the symptoms?
 ---
 
 **Question**
-
 How do the themes of _Growing a Language_ relate to the "sound lab" we did this week?
 
 **Response**
-
+Anthony
 + Fluency
 + Creating a pattern: chaining and natural use
 + Mode of discussion
@@ -65,7 +64,7 @@ How do the themes of _Growing a Language_ relate to the "sound lab" we did this 
 In what way is an API a language? 
 
 **Response**
-
+Ross
 + Fluency in expressions
 + Sytematic/Patterns
 + Design of both is an art&mdash;not a science
@@ -79,7 +78,7 @@ In what way is an API a language?
 What does the post on grayscale tell us about the process of API design?
 
 **Response**
-
+Anthony
 + It should be interactive: have users vote (maybe)
 + Names make a huge difference in usability
 + Need to weigh pros and cons&mdash;especially compatibility issues
@@ -93,7 +92,7 @@ The Yang and Rabkin article talks mainly about general-purpose languages. In
 what ways do the themes apply to the study and creation of DSLs?
 
 **Response**
-
+Ross
 ---
 
 **Question**
@@ -123,7 +122,7 @@ you choose to include natural language in the design of a DSL? If so, how might
 you do so? If not, why not?
 
 **Response**
-
+Anthony
 + There needs to be a good balance
    + It's important to have fluency and naturalness, but also have a very strict
      less optionful language. It doesn't need to read like Shakespeare, but it
@@ -147,6 +146,6 @@ you do so? If not, why not?
 Briefly describe how you split up the work for this assignment.
 
 **Response**
-
+Ross
 
 ---
