@@ -22,19 +22,30 @@ For each quote, describe what it was about the quote that led you pick it.
 > The key point is that in the bazaar style of building a program or designing a
 > language or what you will, the plan can change in real time to meet the needs
 > of those who work on it and use it. This tends to make users stay with it as
-> time goes by;they will take joy in working hard and helping out if they know
+> time goes by; they will take joy in working hard and helping out if they know
 > that their wants and needs have some weight and their hard work can change the
 > plan for the better [Steele, 1998]
 
-The idea from this quote that when designing a language, you should try to be
-flexible really resonates with me. It reminds me of the two types of software
-development strategies, Agile and Waterfall. With Agile designing, you don't
-over specify the design from the start so it is able to easily change. However,
-when designing a DSL, I almost feel a "Waterfall" approach is better, so that as
-you implement your language, you dont forget your design goals. We have
-discussed that as too many features are added to a DSL, it becomes so saturated
-that it essentially becomes a general-purpose language and a "Waterfall"
-approach might help stop that.
+While flexibility as emphasized in this quote and throughout Steele's paper
+are foundational to good software development and general-purpose programming
+language development, we feel that a stricter approach when building out a DSL
+is essential in avoiding feature-bloat. Anthony pointed out an analagous duality
+of development styles prompted by this quote: Cathedral-Style is to Bazarr-Style
+as the [Waterfall Model](https://en.wikipedia.org/wiki/Waterfall_model) is to
+the [Agile Model](https://en.wikipedia.org/wiki/Agile_software_development). In
+the former, one, through a deep design and requirement definition process,
+comes up with a sort of master plan while the other is a more itereative,
+adaptive approach even once building (or coding) has started. While the Agile
+model can be extremley useful in more general software projects, for a DSL a
+so-called "master plan" can be extemely useful.
+
+While Ross mostly agrees with this analogy, he argues that the actual look and
+feel of the developing DSL should be up for debate and evolving&mdash;especially
+in its early days. Defining clear features and overall goals of what should be
+"easy, difficult, and impossible" is important, but the syntax decisions should
+be a more evolving component. As Steele mentioned in the quote above, the
+iterative process, if done with care, not only serves to better the final
+product, but it also serves to provide users "joy"!
 
 2. Technical Wizards: The Dangers of Magic
 
